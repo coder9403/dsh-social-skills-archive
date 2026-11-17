@@ -1,0 +1,10 @@
+{
+  "name": "b-cheese",
+  "version": "1.0.0",
+  "private": true,
+  "description": "B站课堂（cheese）采集 Skill CLI：首页两区块 / 分类列表 / 课程详情+课时目录，服务端直连公开接口，无需登录",
+  "main": "cli.js",
+  "engines": {
+    "node": ">=18"
+  }
+}

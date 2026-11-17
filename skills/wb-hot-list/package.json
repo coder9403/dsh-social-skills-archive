@@ -1,0 +1,10 @@
+{
+  "name": "wb-hot-list",
+  "version": "1.0.0",
+  "private": true,
+  "description": "微博热门榜单采集 Skill CLI（插件节点采集小时榜/昨日/前日/周榜/男榜/女榜，每 10 条 1 点数）",
+  "main": "cli.js",
+  "engines": {
+    "node": ">=18"
+  }
+}

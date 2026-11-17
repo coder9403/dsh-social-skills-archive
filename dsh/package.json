@@ -53,11 +53,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mystery77777777/-skill.git"
+    "url": "git+https://github.com/coder9403/dsh-social-skills.git",
+    "directory": "dsh"
   },
-  "homepage": "https://github.com/mystery77777777/-skill/tree/HEAD/dsh#readme",
+  "homepage": "https://github.com/coder9403/dsh-social-skills/tree/HEAD/dsh#readme",
   "bugs": {
-    "url": "https://github.com/mystery77777777/-skill/issues"
+    "url": "https://github.com/coder9403/dsh-social-skills/issues"
   },
   "license": "MIT"
 }

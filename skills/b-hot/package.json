@@ -1,0 +1,10 @@
+{
+  "name": "b-hot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "B站热门榜单采集 Skill CLI（综合热门/每周必看/入站必刷/排行榜，走内网插件节点，每次 1 点数）",
+  "main": "cli.js",
+  "engines": {
+    "node": ">=18"
+  }
+}

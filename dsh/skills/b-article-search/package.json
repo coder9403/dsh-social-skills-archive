@@ -1,0 +1,10 @@
+{
+  "name": "b-article-search",
+  "version": "1.0.0",
+  "private": true,
+  "description": "B站专栏文章搜索 Skill CLI (关键词搜专栏文章, 每页 20 条 = 1 点数)",
+  "main": "cli.js",
+  "engines": {
+    "node": ">=18"
+  }
+}

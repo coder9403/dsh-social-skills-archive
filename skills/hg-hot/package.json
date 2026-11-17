@@ -1,0 +1,10 @@
+{
+  "name": "hg-hot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "红果短剧热榜采集 Skill CLI（hongguoduanju.com，18 个短剧榜单，服务端直接 HTTP 采集，每次 1 点数）",
+  "main": "cli.js",
+  "engines": {
+    "node": ">=18"
+  }
+}

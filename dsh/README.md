@@ -29,7 +29,7 @@ dsh plugin --profile desktop add link:/absolute/path/to/repo/dsh
 
 ### 3. 从 GitHub 安装
 
-本插件位于仓库的 `dsh/` 子目录，**不能**直接 `dsh plugin add github:mystery77777777/-skill`（那会装仓库根目录，根目录没有插件 `package.json`）。要么按第 1 种发布到 npm 后安装，要么克隆仓库后用 `link:` 指向 `dsh/`。
+本插件位于仓库的 `dsh/` 子目录，**不能**直接 `dsh plugin add github:coder9403/dsh-social-skills`（那会装仓库根目录，根目录没有插件 `package.json`）。要么按第 1 种发布到 npm 后安装，要么克隆仓库后用 `link:` 指向 `dsh/`。
 
 ### 验证是否挂上
 
@@ -37,7 +37,7 @@ dsh plugin --profile desktop add link:/absolute/path/to/repo/dsh
 dsh --profile desktop --dump-config
 ```
 
-配置里应出现 `social-collector` 这一行；在会话里打开 `/` 菜单或让 Agent 调用 `skill` 工具，可以看到 58 个技能。
+配置里应出现 `social-collector` 这一行；在会话里打开 `/` 菜单或让 Agent 调用 `skill` 工具，可以看到 65 个技能。
 
 ## 使用方式
 

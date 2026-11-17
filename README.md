@@ -140,14 +140,30 @@ See each skill directory's `SKILL.md` for authentication, arguments, response sc
 - User credentials are stored in `~/.xhs-platform/config.json`. **Never commit this file or real tokens to Git.**
 - Use these tools only with appropriate authorization and in compliance with platform rules and applicable laws.
 
+## DeepSeek Harness（DSH）安装 | Install as a DSH plugin
+
+本仓库包含 DSH 插件包 `dsh-social-collector`（位于 `dsh/` 子目录，65 个 skill 一次装好）：
+
+```sh
+# 从 npm 安装（发布后可用）
+dsh plugin add dsh-social-collector
+
+# 或在本地克隆后按目录安装
+git clone https://github.com/coder9403/dsh-social-skills.git
+dsh plugin add link:/absolute/path/to/dsh-social-skills/dsh
+```
+
+详见 [dsh/README.md](dsh/README.md)。
+
 ## Repository Layout | 仓库结构
 
 ```text
-<skill-name>/
+skills/<skill-name>/
   SKILL.md       # Agent instructions and complete usage documentation
   cli.js         # Zero-dependency Node.js CLI
   package.json   # Package metadata and Node.js requirement
   src/           # API client, configuration, and output helpers
-_shared/         # Shared client utilities
-dist/            # Packaged skill distributions
+skills/_shared/  # Shared client utilities
+skills/dist/     # Packaged skill distributions
+dsh/             # DSH bundle plugin (dsh-social-collector), vendored from skills/
 ```

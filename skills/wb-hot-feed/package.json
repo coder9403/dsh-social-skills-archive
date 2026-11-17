@@ -1,0 +1,10 @@
+{
+  "name": "wb-hot-feed",
+  "version": "1.0.0",
+  "private": true,
+  "description": "微博热门推荐采集 Skill CLI（插件节点采集热门/同城/实时频道热文流，每 10 条 1 点数）",
+  "main": "cli.js",
+  "engines": {
+    "node": ">=18"
+  }
+}
